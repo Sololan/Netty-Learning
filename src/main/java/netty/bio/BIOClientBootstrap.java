@@ -1,6 +1,6 @@
-package netty.case1;
+package netty.bio;
 
-import netty.case1.server.BIOServer;
+import netty.bio.client.BIOClient;
 
 /**
  * @Author Anthony.liu
@@ -8,8 +8,8 @@ import netty.case1.server.BIOServer;
  * @Date 2020/12/25
  */
 
-public class BIOServerBootstrap {
+public class BIOClientBootstrap {
     public static void main(String[] args) throws Exception {
-        new BIOServer().start(10010);
+        new BIOClient().start("127.0.0.1", 10010);
     }
 }

@@ -1,4 +1,4 @@
-package netty.case1.client;
+package netty.bio.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
